@@ -45,7 +45,7 @@ import { ref } from 'vue'
 const teadata = [
   {
     id: 1,
-    name: '大波霸奶茶',
+    name: '珍珠奶茶',
     content: '香濃奶茶搭配QQ珍珠',
     price: 50,
     stock: 20,
