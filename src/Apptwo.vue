@@ -114,7 +114,7 @@ function teaNumber(id, stock) {
 function startEdit(id) {
   const drink = drinks.value.find((item) => item.id === id)
   if (drink) {
-    currentDrink.value = { ...drink } // 複製當前飲品資料
+    currentDrink.value = { ...drink, tempName: drink.name }
   }
 }
 
